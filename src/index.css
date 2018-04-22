@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+a {
+  color: dodgerblue;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button.btn {
+  background: deepskyblue;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+}
+
+button.btn.secondary {
+  background: salmon;
+}
+
+input {
+  font-size: 1.5em;
+  border: 1px solid lightgray;
+  padding: 10px;
+  color: #555555;
+}
+
+input:focus {
+  outline: none;
+}
